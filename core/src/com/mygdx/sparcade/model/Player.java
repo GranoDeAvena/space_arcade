@@ -13,6 +13,10 @@ public class Player {
     public Rectangle bounds = new Rectangle();
     public String filename = new String("cat_5.png");
 
+    public Player()
+    {
+        bounds = new Rectangle(0, 0, SIZE, SIZE);
+    }
 
     public Player(Vector2 position)
     {
